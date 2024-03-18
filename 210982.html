@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="210982.css">
+    <script src="210982.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Calculator</h1></div>
+        <div class="container">
+    <table class="tableS">
+        <tr>
+            <td colspan="4">
+                <input disabled id="disp_screen" type="text" class="screen">
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="clearDisplay()" class="finish">C</button></td>
+            <td><button onclick="dispFactorial()" class="operator">!</button></td>
+            <td><button onclick="displayNumber('%')" class="operator">%</button></td>
+            <td><button onclick="displayNumber('*')" class="operator">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="displayNumber(7)" class="number">7</button></td>
+            <td><button onclick="displayNumber(8)" class="number">8</button></td>
+            <td><button onclick="displayNumber(9)" class="number">9</button></td>
+            <td><button onclick="displayNumber('+')" class="operator">+</button></td>        
+        </tr>
+        <tr>
+            <td><button onclick="displayNumber(4)" class="number">4</button></td>
+            <td><button onclick="displayNumber(5)" class="number">5</button></td>
+            <td><button onclick="displayNumber(6)" class="number">6</button></td>
+            <td><button onclick="displayNumber('-')" class="operator">-</button></td>        
+        </tr>
+        <tr>
+            <td><button onclick="displayNumber(1)" class="number">1</button></td>
+            <td><button onclick="displayNumber(2)" class="number">2</button></td>
+            <td><button onclick="displayNumber(3)" class="number">3</button></td>
+            <td><button onclick="displayNumber('/')" class="operator">/</button></td>        
+        </tr>
+        <tr>
+            <td><button onclick="displayNumber(0)" class="number">0</button></td>
+            <td><button onclick="displayNumber('.')" class="operator">.</button></td>        
+            <td><button onclick="displayNumber('P')" class="operator">nPr</button></td>        
+            <td><button onclick="calculate()" class="finish">=</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

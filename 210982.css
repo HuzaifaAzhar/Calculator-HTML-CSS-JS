@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.screen{
+    background-color: white;
+    padding:20px;
+    padding-right: 185px;
+}
+.tableS{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding:20px;
+}
+.number{
+    width:80px;
+    height:80px;
+    border:1px solid white;
+    margin:5px;
+    padding:30px;
+    color:white;
+    background-color: black;
+}
+.operator{
+    width:80px;
+    height:80px;
+    border:1px solid white;
+    margin:5px;
+    padding:30px;
+    color:white;
+    background-color: grey;
+}
+.finish{    
+    width:80px;
+    height:80px;
+    border:1px solid white;
+    margin:5px;
+    padding:30px;
+    background: red;
+    color:white;
+}
+button:hover{
+    background-color:chocolate;
+}
+::placeholder {
+    color: black;
+    opacity: 1; 
+}
